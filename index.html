@@ -300,6 +300,8 @@
   .repo-desc { margin: 5px 0 0; color: var(--muted); font-size: 0.93rem; max-width: 60em; }
   .lang { display: inline-block; font-size: 0.82rem; color: var(--faint); margin-top: 7px; }
   .lang i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+  .repo-thumb { display: block; margin-top: 10px; max-width: 460px; }
+  .repo-thumb img { display: block; width: 100%; height: auto; border: 1px solid var(--hairline); border-radius: 8px; }
   .more-line { margin: 22px 0 0; padding-top: 16px; border-top: 1px solid var(--hairline); font-size: 0.9rem; color: var(--muted); }
   .more-line .lead { font-weight: 700; color: var(--text); }
   .more-line ul { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px 20px; }
@@ -526,6 +528,8 @@
       <div class="rs-entry">
         <div class="rs-top"><span class="rs-name" data-i18n="cp3.title">Antarctic Station Forecasts</span><span class="rs-period" data-i18n="cp.period">2026 &ndash; Present</span></div>
         <p class="rs-sub" data-i18n="cp3.desc">I am applying AI weather models to forecasting for Antarctic stations: verification, site-specific correction, and products supporting fieldwork.</p>
+      
+        <span class="repo-thumb"><img src="images/polar-platform.jpg" alt="Polar cryosphere and climate change observation platform" loading="lazy"></span>
       </div>
     </section>
 
@@ -556,20 +560,24 @@
       <h3 class="rs-h" data-i18n="proj.os">Open Source</h3>
       <ul class="repo-list">
         <li class="repo-item">
-          <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener">origin-meteohydro-skills</a></h4>
-          <p class="repo-desc" data-i18n="repo4.desc">Origin/OriginPro plotting skill for meteorological and hydrological research: 40 scientific palettes, 12 native Origin examples, and a 30-paper evidence base with journal figure recipes and validation tools.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
-        </li>
-        <li class="repo-item">
-          <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener">arcgis-desktop-cartography-skills</a></h4>
-          <p class="repo-desc" data-i18n="repo5.desc">ArcMap scientific cartography skill: a 30-paper design study, 10 native map examples with editable MXD/LYR files, reproducible synthetic data and validation.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
-        </li>
-        <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/jinsha-daily-drought-hybrid" target="_blank" rel="noopener">jinsha-daily-drought-hybrid</a></h4>
           <p class="repo-desc" data-i18n="repo1.desc">Code &amp; data for the Jinsha River Basin daily drought forecasting project: a physics-guided hybrid model (PyTorch).</p>
           <span class="lang"><i style="background:#3572A5"></i>Python</span>
         </li>
+        <li class="repo-item">
+          <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener">origin-meteohydro-skills</a></h4>
+          <p class="repo-desc" data-i18n="repo4.desc">Origin/OriginPro plotting skill for meteorological and hydrological research: 40 scientific palettes, 12 native Origin examples, and a 30-paper evidence base with journal figure recipes and validation tools.</p>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+        
+          <a class="repo-thumb" href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener"><img src="images/origin-preview.png" alt="Origin scientific colour examples" loading="lazy"></a>
+</li>
+        <li class="repo-item">
+          <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener">arcgis-desktop-cartography-skills</a></h4>
+          <p class="repo-desc" data-i18n="repo5.desc">ArcMap scientific cartography skill: a 30-paper design study, 10 native map examples with editable MXD/LYR files, reproducible synthetic data and validation.</p>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+        
+          <a class="repo-thumb" href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener"><img src="images/arcgis-gallery.jpg" alt="ArcMap cartography gallery: ten map examples" loading="lazy"></a>
+</li>
         <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/pytorch-cnn-lstm-temperature-prediction" target="_blank" rel="noopener">pytorch-cnn-lstm-temperature-prediction</a></h4>
           <p class="repo-desc" data-i18n="repo2.desc">PyTorch CNN-LSTM temperature time-series forecasting experiments behind the Intelligent Meteorological Map&rsquo;s real-time predictions.</p>
