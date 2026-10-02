@@ -284,7 +284,7 @@
   .blog-panel.active { display: block; }
   .life-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin-top: 14px; }
   .life-card { margin: 0; border: 1px solid var(--border); padding: 8px; }
-  .life-card img { display: block; width: 100%; height: 220px; object-fit: cover; }
+  .life-card img { display: block; width: 100%; height: auto; }
   .life-card figcaption { font-size: .85rem; color: var(--muted); padding: 8px 2px 4px; line-height: 1.5; }
   .post-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
   .post-title { font-family: var(--serif); font-size: 1.16rem; font-weight: 700; line-height: 1.5; margin: 0; }
@@ -297,6 +297,8 @@
   .repo-item:last-child { border-bottom: 0; }
   .repo-name { font-family: var(--mono); font-size: 0.95rem; font-weight: 700; margin: 0; display: inline; }
   .repo-name a { border-bottom: 1px solid transparent; }
+  .repo-gh { display: inline-block; font-size: 0.82rem; font-family: var(--mono); color: var(--muted); margin: 7px 0 0 12px; }
+  .repo-gh:hover { color: var(--text); }
   .repo-desc { margin: 5px 0 0; color: var(--muted); font-size: 0.93rem; max-width: 60em; }
   .lang { display: inline-block; font-size: 0.82rem; color: var(--faint); margin-top: 7px; }
   .lang i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
@@ -556,36 +558,36 @@
         <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/jinsha-daily-drought-hybrid" target="_blank" rel="noopener">jinsha-daily-drought-hybrid</a></h4>
           <p class="repo-desc" data-i18n="repo1.desc">Code &amp; data for the Jinsha River Basin daily drought forecasting project: a physics-guided hybrid model (PyTorch).</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/jinsha-daily-drought-hybrid" target="_blank" rel="noopener">GitHub ↗</a>
         </li>
         <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener">origin-meteohydro-skills</a></h4>
           <p class="repo-desc" data-i18n="repo4.desc">Origin/OriginPro plotting skill for meteorological and hydrological research: 40 scientific palettes, 12 native Origin examples, and a 30-paper evidence base with journal figure recipes and validation tools.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener">GitHub ↗</a>
         
           <a class="repo-thumb" href="https://github.com/ARETE-zzwl/origin-meteohydro-skills" target="_blank" rel="noopener"><img src="images/origin-preview.png" alt="Origin scientific colour examples" loading="lazy"></a>
 </li>
         <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener">arcgis-desktop-cartography-skills</a></h4>
           <p class="repo-desc" data-i18n="repo5.desc">ArcMap scientific cartography skill: a 30-paper design study, 10 native map examples with editable MXD/LYR files, reproducible synthetic data and validation.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener">GitHub ↗</a>
         
           <a class="repo-thumb" href="https://github.com/ARETE-zzwl/arcgis-desktop-cartography-skills" target="_blank" rel="noopener"><img src="images/arcgis-gallery.jpg" alt="ArcMap cartography gallery: ten map examples" loading="lazy"></a>
 </li>
         <li class="repo-item">
-        <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/climate-data-downloader" target="_blank" rel="noopener">climate-data-downloader</a></h4>
           <p class="repo-desc" data-i18n="repo6.desc">Windows GUI toolkit for downloading and organizing climate data: CMIP6, NEX-GDDP-CMIP6, CORDEX, NASA POWER, NOAA CPC and NCEP/NCAR reanalysis, with batch tasks, pause/resume and checksum verification.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/climate-data-downloader" target="_blank" rel="noopener">GitHub ↗</a>
         </li>
+        <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/pytorch-cnn-lstm-temperature-prediction" target="_blank" rel="noopener">pytorch-cnn-lstm-temperature-prediction</a></h4>
           <p class="repo-desc" data-i18n="repo2.desc">PyTorch CNN-LSTM temperature time-series forecasting experiments behind the Intelligent Meteorological Map&rsquo;s real-time predictions.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/pytorch-cnn-lstm-temperature-prediction" target="_blank" rel="noopener">GitHub ↗</a>
         </li>
         <li class="repo-item">
           <h4 class="repo-name"><a href="https://github.com/ARETE-zzwl/noaa-dashboard-python" target="_blank" rel="noopener">noaa-dashboard-python</a></h4>
           <p class="repo-desc" data-i18n="repo3.desc">Interactive Plotly dashboards for NOAA weather-station extreme-temperature data.</p>
-          <span class="lang"><i style="background:#3572A5"></i>Python</span>
+          <span class="lang"><i style="background:#3572A5"></i>Python</span><a class="repo-gh" href="https://github.com/ARETE-zzwl/noaa-dashboard-python" target="_blank" rel="noopener">GitHub ↗</a>
         </li>
       </ul>
       <div class="more-line">
